@@ -1,0 +1,19 @@
+.date-of-release {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  font-size: 0.7em;
+  color: #555;
+}
+
+.date-of-release-label {
+  font-weight: bold;
+}
+
+.date-of-release-year,
+.date-of-release-month,
+.date-of-release-day {
+  margin-left: 6px;
+}
+
+/* Add more specific styles for month, year, and day if needed */

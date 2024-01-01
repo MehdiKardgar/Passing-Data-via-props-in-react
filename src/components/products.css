@@ -22,7 +22,7 @@
   /* Hover effect for box-shadow */
 }
 
-.left-part {
+.product-details {
   flex: none;
 }
 
@@ -40,13 +40,14 @@
 
 .product-price {
   font-weight: bold;
+  margin-bottom: 5px;
 }
 
-.right-part {
+/* .right-part {
   flex: 1;
   display: flex;
   justify-content: flex-end;
-}
+} */
 
 .product-img {
   max-width: 100px;
