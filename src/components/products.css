@@ -5,7 +5,6 @@
   justify-content: space-between;
   align-items: center;
   border: 1px solid #ccc;
-  padding: 10px;
   margin-bottom: 5px;
   background-color: #f9f9f9;
   /* Background color */
@@ -18,7 +17,7 @@
 }
 
 .product:hover {
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 8px rgba(233, 231, 231, 0.2);
   /* Hover effect for box-shadow */
 }
 
