@@ -1,20 +1,22 @@
 import React from "react";
 
-import Products from "./components/Products";
+// import Products from "./components/Products";
 
 import "./App.css";
+import Products from "./components/products";
+import Card from "./components/Card";
 
 function App() {
   const products = [
     {
-      title: "Rich dad Poor dad",
+      title: "rich dad poor dad",
       author: "Robert T. Kiyosaki",
       price: "67",
       image: "image/Rich dad Poor dad.jpg",
       dateOfRelease: new Date(2011, 5, 12),
     },
     {
-      title: "Spare",
+      title: "spare",
       author: "Prince Harry",
       price: "39",
       image: "image/Spare.jpg",
@@ -35,7 +37,7 @@ function App() {
       dateOfRelease: new Date(2019, 12, 11),
     },
     {
-      title: "The Half Moon",
+      title: "The half moon",
       author: "Mary Beth Keane",
       price: "49",
       image: "image/The Half Moon.webp",
@@ -54,7 +56,7 @@ function App() {
     <div className="App">
       <h1>Passing Data via props</h1>
 
-      <div className="products">
+      <Card className="products">
         {products.map((product, index) => (
           <Products
             key={index}
@@ -65,7 +67,7 @@ function App() {
             dateOfRelease={product.dateOfRelease}
           />
         ))}
-      </div>
+      </Card>
     </div>
   );
 }
