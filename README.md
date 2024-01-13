@@ -1,6 +1,6 @@
 # Passing Data via props
 
-![Uploading Screenshot 2024-01-14 000656.png…]()
+<img width="960" alt="Screenshot 2024-01-14 000656" src="https://github.com/MehdiKardgar/Passing-Data-via-props-in-react/assets/76148286/d9eb4778-71ac-42b0-9496-6295d78626ae">
 
 # Getting Started with Create React App
 
