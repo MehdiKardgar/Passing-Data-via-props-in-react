@@ -1,3 +1,7 @@
+# Passing Data via props
+
+![Uploading Screenshot 2024-01-14 000656.png…]()
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
