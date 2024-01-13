@@ -1,54 +1,12 @@
-/* products.css */
+/* Products.css */
+.products {
+  background-color: #8e8d8d;
 
-.product {
+
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
   align-items: center;
-  border: 1px solid #ccc;
-  margin-bottom: 5px;
-  background-color: #f9f9f9;
-  /* Background color */
-  width: 500px;
-  /* height: 120px;  */
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  /* Box shadow */
-  transition: box-shadow 0.3s ease;
-  /* Smooth transition for box-shadow */
-}
-
-.product:hover {
-  box-shadow: 0 4px 8px rgba(233, 231, 231, 0.2);
-  /* Hover effect for box-shadow */
-}
-
-.product-details {
-  flex: none;
-}
-
-.product-title {
-  font-size: 1.2em;
-  font-weight: bold;
-  margin-bottom: 5px;
-}
-
-.product-author {
-  font-style: italic;
-  color: #555;
-  margin-bottom: 5px;
-}
-
-.product-price {
-  font-weight: bold;
-  margin-bottom: 5px;
-}
-
-/* .right-part {
-  flex: 1;
-  display: flex;
-  justify-content: flex-end;
-} */
-
-.product-img {
-  max-width: 100px;
-  height: auto;
+  margin: 20px;
+  padding: 30px 45px;
+  /* Add padding to create space on the left and right */
 }
