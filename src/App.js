@@ -1,10 +1,8 @@
 import React from "react";
 
-// import Products from "./components/Products";
+import Products from "./components/Products";
 
 import "./App.css";
-import Products from "./components/products";
-import Card from "./components/Card";
 
 function App() {
   const products = [
@@ -56,18 +54,7 @@ function App() {
     <div className="App">
       <h1>Passing Data via props</h1>
 
-      <Card className="products">
-        {products.map((product, index) => (
-          <Products
-            key={index}
-            title={product.title} // attributes
-            author={product.author}
-            price={product.price}
-            image={product.image}
-            dateOfRelease={product.dateOfRelease}
-          />
-        ))}
-      </Card>
+      <Products items={products} />
     </div>
   );
 }

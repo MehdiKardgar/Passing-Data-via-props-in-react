@@ -1,89 +1,16 @@
 .App {
   font-family: Arial, sans-serif;
-  /* background-color: rgb(93, 89, 171); */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgb(236, 236, 236);
   align-items: center;
-  text-align: center;
+  /* text-align: center; */
   padding: 20px;
 }
 
 
-/* .App-logo {
-  height: 40vmin;
-  pointer-events: none;
-} */
-
-/* @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-} */
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-/* .App-link {
-  color: #61dafb;
-} */
-
-/* @keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-
-  to {
-    transform: rotate(360deg);
-  }
-} */
-
-
-
-
-
-/* App.css */
-
 h1 {
   color: #7554a0;
   margin-bottom: 20px;
-}
-
-
-/* My Gol is here */
-.products {
-  width: 575px;
-  background-color: #282c34;
-  display: flex;
-  /* justify-content: center; */
-  flex-direction: column;
-  /* Updated to column */
-  align-items: center;
-  gap: 8px;
-}
-
-/* Style for each product component */
-.Products {
-  border: 1px solid #ddd;
-  /* border-radius: 8px; */
-  /* padding: 20px; */
-  background-color: #f9f9f9;
-  width: 200px;
-  text-align: center;
-}
-
-.Products h2 {
-  font-size: 1.2em;
-  margin-bottom: 10px;
-  color: #333;
-}
-
-.Products p {
-  color: #555;
-  line-height: 1.6;
 }
