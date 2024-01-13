@@ -1,7 +1,6 @@
 import React from "react";
 
 import Products from "./components/Products";
-
 import "./App.css";
 
 function App() {
@@ -53,7 +52,6 @@ function App() {
   return (
     <div className="App">
       <h1>Passing Data via props</h1>
-
       <Products items={products} />
     </div>
   );
