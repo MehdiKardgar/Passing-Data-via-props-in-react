@@ -1,7 +1,7 @@
 import React from "react";
 
 import Card from "./Card";
-import "./Products.css";
+import "./products.css";
 
 import ProductItem from "./ProductItem";
 
