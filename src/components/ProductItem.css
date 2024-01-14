@@ -1,19 +1,17 @@
 /* ProductItem.css */
+
 .product {
-  width: 100%;
   background-color: #ececec;
+  border: 1px solid #ccc;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border: 1px solid #ccc;
-  margin: 10px;
-  padding: 7px;
+  padding: 0.5rem;
+  margin: 1rem 0;
 }
 
 .product:hover {
-  /* box-shadow: 0 4px 8px rgba(233, 231, 231, 0.2); */
   box-shadow: 8px 9px 16px 0px rgb(15 13 13 / 50%);
-
   /* Hover effect for box-shadow */
 }
 
@@ -54,7 +52,6 @@
 
 .product-img {
   max-width: 100px;
-  /* max-height: 100px; */
   height: auto;
   border-radius: 5px;
 }

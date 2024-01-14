@@ -1,9 +1,8 @@
 .products {
+  padding: 2.7rem;
+  margin: 2rem auto;
+  width: 40rem;
+  max-width: 95%;
   background-color: #8e8d8d;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: 20px;
-  padding: 30px 45px;
-  /* Add padding to create space on the left and right */
+
 }
